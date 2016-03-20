@@ -35,7 +35,6 @@
 		    temp = a[i];
 		    a[i] = a[0];
 		    a[0] = temp;
-		    size--;
 		    heapAjust(a,0,size);
 	    }
     }
